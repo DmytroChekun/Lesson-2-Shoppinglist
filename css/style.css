@@ -6,75 +6,83 @@ header{
     background-color: rgb(74, 79, 86);
     color: rgb(235, 126, 127);
     text-align: center;
+    margin-bottom: 40px;
 }
 
-.header1{ 
+.header-h1{ 
+    font-size: 34px;
+    padding-top: 24px;
+    padding-bottom: 4px;
+}
+
+.header-p{
     font-size: 24px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
+    padding-bottom: 22px;
 
-.header2{
-  font-size: 16px;
-  padding-bottom: 15px;
 }
 
 ol{
-    margin: 0 auto;
-    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
     color: rgb(248, 248, 249);
-    
 }
 
 
 li{
-    padding: 10px 0px 10px 0px;
-    display: block;
+    list-style: none;
+    height: 63px;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+}
+
+label{
+    font-size: 24px;
 }
 
 li:hover{
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
     background-color: rgb(90, 87, 107);
+    box-sizing: border-box;
+    padding-top: auto;
+    padding-bottom: auto;
+    box-sizing: border-box;
 }
 
 .li1{
-    background-color: #88839E;
+    background-color: rgb(136, 131, 158);
 }
 
 .li2{
     background-color: rgb(122, 117, 147);
 }
 
-
-form{
-    margin: 30px 0px 30px 0px;
-}
-
 .submit{
     display: block;
     border: none;
-    width: 600px;
+    width: 800px;
+    height: 73px;
     background-color: rgb(74, 79, 86);
-    margin: 0 auto;
-    padding: 10px 0px 10px 0px;
-    margin: 30px 0px 0px 0px;
     color: rgb(235, 126, 127);
-    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 24px;
 }
 
 .submit:hover{
     background-color: rgb(39, 42, 46);
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
 }
 
 span{
-    font-size: 12px;
-    padding: 20px;
+    font-size: 15px;
     color: rgb(204, 204, 206);
 }
 
-input:checked ~ label{
+input:checked + label{
     text-decoration:line-through;
 }
